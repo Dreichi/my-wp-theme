@@ -1,0 +1,115 @@
+/* 
+Theme Name:   Wordpress Blog Theme for ECG
+Description:  a Wordpress Blog Theme
+Author:       Damien Jenger
+Version:      1.0.0
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#home-link {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#home-link img {
+    display: inline-block;
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+main {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+}
+
+footer p {
+    justify-content: center;
+    margin: 0;
+}
+
+footer a {
+    color: #333;
+}
+
+.error-404 h1, .error-404 p {
+    text-align: center;
+}
+
+.error-404 h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.error-404 p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.site-navigation {
+    margin-left: 2rem;
+    float: right;
+}
+
+.nav-menu li:first-child {
+    margin-left: 0;
+}
+
+.nav-menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+
